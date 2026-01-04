@@ -10,20 +10,25 @@
 
 - MCP 
    https://modelcontextprotocol.io/docs/getting-started/intro
+   
    https://modelcontextprotocol.io/docs/learn/architecture
+   
    https://langchain-ai.github.io/langgraph/agents/mcp/
 
 - LangChain MCP Adapters
    https://changelog.langchain.com/announcements/mcp-adapters-for-langchain-and-langgraph
+   
    https://github.com/langchain-ai/langchain-mcp-adapters
 
 - GitHub MCP Server - https://github.com/modelcontextprotocol/servers-archived/tree/main/src/github
-   Filesystem MCP Server - https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem
-   Create Custom MCP Server - https://langchain-ai.github.io/langgraph/agents/mcp/#custom-mcp-servers
+- Filesystem MCP Server - https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem
+- Create Custom MCP Server - https://langchain-ai.github.io/langgraph/agents/mcp/#custom-mcp-servers
 
 - Streamlit
    Playground - https://streamlit.io/playground
+   
    Chat elements - https://docs.streamlit.io/develop/api-reference/chat
+   
    Session state - https://docs.streamlit.io/develop/concepts/architecture/session-state
 
 - MultiModal Models
