@@ -31,7 +31,9 @@ MultiModal Models
 Gemini API Key - https://aistudio.google.com/apikey
 
 Gemini 2.0 Flash - https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash
+
 Text to Image Generation - https://ai.google.dev/gemini-api/docs/image-generation
 
 Image Caption Generation - https://ai.google.dev/gemini-api/docs/image-understanding
+
 Video Caption Generation - https://ai.google.dev/gemini-api/docs/video-understanding
