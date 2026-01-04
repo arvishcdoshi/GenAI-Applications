@@ -27,8 +27,8 @@ async def run_agent():
        }
    )
    tools = await client.get_tools()
-   agent = create_react_agent("groq:llama-3.3-70b-versatile", tools)
-   response = await agent.ainvoke({"messages": "what are the files present in repository arvishcdoshi/GenAI-Applications"})
+   agent = create_react_agent("openai:gpt-4o-mini", tools)
+   response = await agent.ainvoke({"messages": "Create a new file named binary_search.cpp in repository arvishcdoshi/GenAI-Applications and add binary search code to it"})
    print(response["messages"][-1].content)
 
 
