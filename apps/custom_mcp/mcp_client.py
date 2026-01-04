@@ -14,17 +14,7 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 async def run_agent():
    client = MultiServerMCPClient(
        {
-           "github": {
-               "command": "npx",
-               "args": [
-                   "-y",
-                   "@modelcontextprotocol/server-github"
-               ],
-               "env": {
-                   "GITHUB_PERSONAL_ACCESS_TOKEN": GITHUB_TOKEN
-               },
-               "transport": "stdio"
-           },
+
            "CustomFileSystem": {
                "command": "python",
                "args": [
@@ -37,7 +27,7 @@ async def run_agent():
    )
    tools = await client.get_tools()
    agent = create_react_agent("groq:llama-3.3-70b-versatile", tools)
-   response = await agent.ainvoke({"messages": "what are the folders present in GenAI-Applications"})
+   response = await agent.ainvoke({"messages": "Add a new file called arvish.txt in GenAI-Applications"})
    print(response["messages"][-1].content)
 
 
