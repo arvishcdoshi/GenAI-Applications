@@ -2,3 +2,4 @@ langchain[openai]
 langchain[groq]
 python-dotenv
 langchain_mcp_adapters
+streamlit
