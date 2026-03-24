@@ -1,5 +1,5 @@
 # GenAI-Applications
-- Langchain
+- LangChain
 - LangGraph
 - Streamlit
 - RAG
